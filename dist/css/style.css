@@ -1,0 +1,217 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  font-weight: 600;
+  background-color: #190933;
+}
+
+.navbar .container .navbar-brand {
+  color: #5dd9c1;
+}
+
+.navbar .container .navbar-brand .uil {
+  color: #5dd9c1;
+}
+
+.navbar .container .nav-item .nav-link {
+  color: #5dd9c1;
+}
+
+.navbar .container .menu .uil {
+  color: #5dd9c1;
+}
+
+/* Header */
+.header-1 .bg-image {
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-1 .bg-image .header-tagline {
+  font-weight: 500;
+}
+
+.header-1 .header-1 .header-title {
+  color: #190933;
+}
+
+.header-1 .header-1 .btn {
+  font-weight: 500;
+  background-color: #190933;
+  color: #5dd9c1;
+  border-radius: 0;
+}
+
+/* Peralatan */
+.peralatan-title {
+  margin: 8vh;
+  font-weight: 700;
+}
+
+.gear-card .card-body .btn {
+  background-color: #190933;
+  color: #5dd9c1;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+/* Pakaian */
+.pakaian-title {
+  margin: 8vh;
+  font-weight: 700;
+}
+
+.wear-card .card-body .btn {
+  background-color: #190933;
+  color: #5dd9c1;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+/* Header */
+.header-2 .parent {
+  margin-top: 10vh;
+}
+.header-2 .bg-image {
+  height: 60vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-2 .bg-image .header-tagline {
+  font-size: 1.85rem;
+  margin-top: 5rem;
+}
+
+.header-2 .bg-image .header-title {
+  line-height: 2.5rem;
+  font-size: 7rem;
+}
+
+.header-2 .header-2 .btn {
+  margin-top: 1rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  border-radius: 200px;
+  background-color: #190933;
+  color: #5dd9c1;
+  border-radius: 0;
+}
+
+.footer {
+  margin-top: 5vh;
+  font-weight: 600;
+  background-color: #190933;
+  color: #5dd9c1;
+}
+
+.footer .container .links {
+  margin-top: 2em;
+}
+
+.footer a {
+  font-weight: 600;
+  color: #5dd9c1;
+}
+
+footer .container .links .list-unstyled a {
+  text-decoration: none;
+}
+
+footer .container .row .sosmed .btn {
+  margin-top: 2rem;
+}
+
+.form-email input {
+  border: unset;
+  background-color: #ebebeb;
+  color: #190933;
+  font-size: 13px;
+  padding: 15px;
+  border-radius: 50px;
+  width: 250px;
+}
+.form-email button {
+  background-color: #190933;
+  color: #5dd9c1;
+  font-weight: 700;
+  border: unset;
+  width: 120px;
+  padding: 15px;
+  border-radius: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.form-email button a {
+  color: #5dd9c1;
+}
+
+.form-email input:focus,
+.form-email button:focus {
+  outline: none;
+}
+
+footer .container .links .hubungi-kami .list-unstyled div {
+  font-size: 0.8rem;
+}
+
+/* Media Queries Tablet */
+@media (max-width: 768px) {
+  .header-2 .bg-image {
+    height: 40vh;
+    display: flex;
+    object-fit: contain;
+    background-size: auto;
+  }
+
+  .header-2 .bg-image .header-tagline {
+    margin-top: 3rem;
+    font-size: 0.7rem;
+  }
+
+  .header-2 .bg-image .header-title {
+    line-height: 0.5rem;
+    font-size: 2.5rem;
+  }
+
+  .header-2 .header-2 .btn {
+    font-size: small;
+    font-weight: 400;
+    background-color: #190933;
+    color: #5dd9c1;
+    border-radius: 0;
+  }
+
+  .form-email input {
+    border: unset;
+    background-color: #ebebeb;
+    color: #190933;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 200px;
+  }
+  .form-email button {
+    background-color: #190933;
+    color: #5dd9c1;
+    font-weight: 700;
+    border: unset;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  footer .container .links .hubungi-kami .list-unstyled div {
+    font-size: 0.6rem;
+  }
+}
